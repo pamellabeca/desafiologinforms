@@ -18,16 +18,21 @@
 body{
     margin: 0;
     height: 100vh;
+    width: 100vh;   
+}
+
+.main{
+    margin: 0;
+    height: 100vh;
     width: 100vh;
 
     display: grid;
     grid-template-areas: 
     "esquerda direita";
-    grid-template-rows: 100%;
+    grid-template-rows: 100vh;
     grid-template-columns: 50% 50%;
     background-color: #191816;
 }
-
 .ladoesquerdo{
     grid-area: esquerda;
 }
@@ -35,4 +40,11 @@ body{
 .ladoedireito{
     grid-area: direita;
 }
+
+.login{
+    background-color: #24221f;
+    border-radius: 10px;
+}
+
+
 
