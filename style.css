@@ -25,20 +25,11 @@ body{
     height: 100vh;
     width: 100vw;
 
-    display: grid;
-    grid-template-areas: 
-    "esquerda direita";
-    grid-template-rows: 100vh;
-    grid-template-columns: 50% 50%;
-    background-color: #191816;
-}
-.main .ladoesquerdo{
-    grid-area: esquerda;
+    display: flex;
+    justify-content: center;
     align-items: center;
-}
-
-.main .ladoedireito{
-    grid-area: direita;
+    
+    background-color: #191816;
 }
 
 .ladoesquerdo .login{
