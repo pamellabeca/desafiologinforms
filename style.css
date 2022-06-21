@@ -92,3 +92,19 @@ strong, a{
     font-weight: 600;
 }
 
+.ladoedireito{
+    width: 50vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+}
+
+.sideimage{
+    width: 50vw;
+    height: 100vh;
+    object-fit: fill;
+}
