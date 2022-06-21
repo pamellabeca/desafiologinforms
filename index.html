@@ -11,52 +11,55 @@
     <div class="main">
         <div class="ladoesquerdo">
             
-            <header>
-                <h1> <img src="./images/log-in.svg" alt=""> Faça seu login</h1>
-                <h2>Entre com suas informações de cadastro.</h2>
-            </header>
+            <div class="cardbox">
+                <header>
+                    <h1> <img src="./images/log-in.svg" alt=""> Faça seu login</h1>
+                    <h2>Entre com suas informações de cadastro.</h2>
+                </header>
             
-            <forms class="login" action="" method="POST">
-                <div class="email">
-                    <label class="foremail" for="emaillogin">E-mail</label>
+                <forms class="login" action="" method="POST">
+                    <div class="textplace">
+                        <label class="foremail" for="emaillogin">E-mail</label>
 
-                    <div class="emailicon">
-                        <img src="./images/mail.svg" alt="email">
-                        <img src="./images/mail-focus.svg" alt="emailfoco">
-                        <input type="text" name="emaillogin" placeholder="Digite seu e-mail"> 
+                        <div class="emailicon">
+                            <img src="./images/mail.svg" alt="email">
+                            <img src="./images/mail-focus.svg" alt="emailfoco">
+                            <input class="textplace" type="text" name="emaillogin" placeholder="Digite seu e-mail"> 
+                        </div>
                     </div>
-                </div>
 
-                <div class="password">
-                    <label class="foremail" for="passwordlogin">Senha</label>
+                    <div class="textplace">
+                        <label class="foremail" for="passwordlogin">Senha</label>
 
-                    <div class="passicon">
-                        <img class="lock" src="./images/lock.svg" alt="lock">
-                        <img class="lockfocus" src="./images/lock-focus.svg" alt="lock-focus">
-                        <input type="password" name="passwordlogin" placeholder="Digite sua senha">
+                        <div class="passicon">
+                            <img class="lock" src="./images/lock.svg" alt="lock">
+                            <img class="lockfocus" src="./images/lock-focus.svg" alt="lock-focus">
+                            <input class="textplace" type="password" name="passwordlogin" placeholder="Digite sua senha">
+                        </div>
                     </div>
-                </div>
 
-                <div class="checkbox">
-                    <label class="forcheckbox" for="checkboxlogin">
-                        <input type="checkbox" name="checkboxlogin">
-                        Lembre-me
-                    </label>
-                     <div class="forgotpassword">
-                        <a href="encurtador.com.br/pswP7">Esqueci minha senha</a>
-                    </div>
-                </div>
+                    <div class="checkbox">
+                        <label class="forcheckbox" for="checkboxlogin">
+                            <input type="checkbox" name="checkboxlogin">
+                            Lembre-me
+                        </label>
+                        <div class="forgotpassword">
+                            <a href="encurtador.com.br/pswP7">Esqueci minha senha</a>
+                        </div>
+                    </div>              
 
-               
+                    <button class="button" type="submit">ENTRAR</button>
+                </forms>
+                <h3 class="register"> Não tem uma conta? <a href="encurtador.com.br/lxIMU"><strong>Registre-se</strong></a></h3>
+            </div>
 
-                <button class="button" type="submit">ENTRAR</button>
-            </forms>
-            <h3 class="register"> Não tem uma conta? <a href="encurtador.com.br/lxIMU"><strong>Registre-se</strong></a></h3>
+                
         </div>
 
         <div class="ladoedireito">
             <img class="sideimage" src="./images/side-image-2x.jpg" alt="">
         </div>
+            
     </div>
 </body>
 </html>

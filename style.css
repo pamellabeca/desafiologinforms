@@ -37,6 +37,7 @@ body{
 
     flex-direction: column;
     background-color: #191816;
+    line-height: 2;
 }
 
 header{
@@ -62,6 +63,12 @@ h2{
     font-family: 'Poppins' , sans-serif;
     font-size: 16px;
     font-weight: 500;
+    line-height: 1;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
 }
 
 .forcheckbox{
@@ -107,4 +114,28 @@ strong, a{
     width: 50vw;
     height: 100vh;
     object-fit: fill;
+}
+
+.cardbox{
+width: 60%;
+
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+padding: 30px 40px;
+background-color: #24221f;
+}
+
+.email{
+    margin-top: 15px;
+}
+
+.textplace > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+
 }
