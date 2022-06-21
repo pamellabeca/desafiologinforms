@@ -20,6 +20,8 @@ body{
 }
 
 .main{
+    width: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,9 +29,22 @@ body{
     background-color: #191816;
 }
 
-.ladoesquerdo .login{
-    background-color: #24221f;
-    border-radius: 10px;
+.ladoesquerdo {
+    width: 50vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+}
+
+h1{
+    color: #d4ccb6;
+    font-family: 'poppins' , sans-serif;
+    font-size: 24px;
+    font-weight: 600;
 }
 
 
